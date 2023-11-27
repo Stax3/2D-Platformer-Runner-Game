@@ -1,0 +1,166 @@
+{
+  "status": 200,
+  "data": {
+    "id": "652e84e6bec4af9bbb172e0e",
+    "game_type": "scramble-ramble",
+    "orientation": "landscape",
+    "title": "Sports Cipher",
+    "sound": "sounds/1649870086904-318720525-bensound-funnysong-619fb98819f7bb212cee4d48.mp3",
+    "description": "Welcome to the game \"Sports Cipher\".  Find the wide range of games played in sports from around the world. \n\n\n\n",
+    "owner_user_id": "635fbb375a1edc19fdc65272",
+    "status": "publish",
+    "category": {
+      "_id": "61a5b13d46586d23b84a2d9c",
+      "name": "Social and Entertainment",
+      "__v": 0,
+      "value": "61a5b13d46586d23b84a2d9c",
+      "label": "Social and Entertainment"
+    },
+    "levels": [
+      {
+        "levelId": 1,
+        "wordData": [
+          {
+            "word": "Football",
+            "hint": "Played by two teams of 11 players"
+          },
+          {
+            "word": "Hockey",
+            "hint": "Played on ice and grass"
+          },
+          {
+            "word": "Tennis",
+            "hint": "Played between two solitary people"
+          },
+          {
+            "word": "Boxing",
+            "hint": "Attack and defense with the fists"
+          },
+          {
+            "word": "Judo",
+            "hint": "Japanese martial art"
+          },
+          {
+            "word": "Cricket",
+            "hint": "Bat-and-ball sport contested by two teams"
+          }
+        ],
+        "introduction": "In this crossword puzzle, find indoor and outdoor sports with the given clues.",
+        "avatar": {
+          "id": "6256934bf99c4e38d2860783",
+          "createdAt": null,
+          "updatedAt": "2023-09-12T06:27:35.274Z",
+          "name": "",
+          "file": "assets/1649840933838-715589644-Happy-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameType": "heroHappy",
+              "frameUrls": [
+                {
+                  "file": "assets/1649840938678-639144516-Happy-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "heroWin",
+              "frameUrls": [
+                {
+                  "file": "assets/1649840945621-425396264-Win-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "heroSad",
+              "frameUrls": [
+                {
+                  "file": "assets/1649840957906-551153719-Sad-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "heroLose",
+              "frameUrls": [
+                {
+                  "file": "assets/1649840967795-374083868-Lose-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": "Humans",
+          "search_keywords": [
+            "Hero",
+            "Boy"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61d90b8e52c0cc7af88a115b",
+            "62204a94e477d3777046dfe7",
+            "6385bc6ed184ae947ae0788a",
+            "63ec8b2cb10edb8c3fb33041",
+            "64f6e67f372019fa7b7d0dc7"
+          ],
+          "asset_type_id": "62fe23fb7476cb426405472e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": null
+        },
+        "background": {
+          "id": "6368ae005a1edc19fdc725fa",
+          "createdAt": "2022-11-07T07:04:32.043Z",
+          "updatedAt": "2023-09-12T06:28:02.872Z",
+          "name": "",
+          "file": "assets/1667804476487-655502562-1-619fb98819f7bb212cee4d48.png",
+          "sub_type": "All",
+          "search_keywords": [
+            "Cricket stadium",
+            "Stadium"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61d90b8e52c0cc7af88a115b",
+            "61e9b4cbb925a95d3e00d101",
+            "61f86488917e7ca9bfb8c220",
+            "61f9f5939edc8854b86ed2b2",
+            "62204a94e477d3777046dfe7",
+            "62a1be9aaf2e985da9726c9a",
+            "62d654ff301b4243bb87ffb1",
+            "6385bc6ed184ae947ae0788a",
+            "63ec8b2cb10edb8c3fb33041",
+            "64f6e67f372019fa7b7d0dc7"
+          ],
+          "asset_type_id": "62fe24177476cb4264054733",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "coins_to_buy": 0,
+          "bought_by_users": [],
+          "deleted": false
+        }
+      }
+    ],
+    "non_repeating_assets": [],
+    "featured": true,
+    "sequence": 20,
+    "collect_data": false,
+    "rtl": false,
+    "search_keywords": [
+      "crossword",
+      "entertainment",
+      "cipher",
+      "sports"
+    ]
+  }
+}

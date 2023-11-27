@@ -1,0 +1,1838 @@
+{
+  "status": 200,
+  "data": {
+    "id": "6421d20ac5b9819539b1eff5",
+    "game_type": "choice-champ",
+    "orientation": "landscape",
+    "title": "Science - Elements & Metals",
+    "sound": "sounds/Y2Mate-is---Taoufik---Sweet-Feelings--Official-Music--c81yoUdfUQM-64k-1656188614382-2cf9bcd-6235ab8783469dc44aa7a2eb.mp3",
+    "description": "This game is based on General science - Elements and Metals.",
+    "owner_user_id": "6235ab8783469dc44aa7a2eb",
+    "status": "publish",
+    "category": {
+      "_id": "61a5b12846586d23b84a2d98",
+      "name": "Education",
+      "__v": 0,
+      "value": "61a5b12846586d23b84a2d98",
+      "label": "Education"
+    },
+    "levels": [
+      {
+        "levelId": 1,
+        "file": "empty",
+        "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+        "answer": "Hydrogen sulphide", 
+        "wrongAnswerOne": "Oxygen", //choice champ 
+        "wrongAnswerTwo": "Carbon dioxide",  //choice champ 
+        "wrongAnswerThree": "Nitrogen",  //choice champ 
+        "closingAnswer": "Brass gets discoloured in air because of the presence of Hydrogen sulphide in air.", 
+        "avatar": {
+          "id": "628c9032327f68d99793f6ed",
+          "createdAt": null,
+          "updatedAt": "2022-10-03T15:49:23.461Z",
+          "name": "",
+          "file": "assets/1653379067776-321944361-Right-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameType": "Lose",
+              "frameUrls": [
+                {
+                  "file": "assets/1653379073306-556225604-Wrong-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ], //choice champ
+          "sub_type": "Objects",
+          "search_keywords": [
+            "earth"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61f9f5939edc8854b86ed2b2",
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "62fe23fb7476cb426405472e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        },
+        "interface": {
+          "id": "6356e004c3242de4f04d637a",
+          "createdAt": "2022-10-24T18:57:08.895Z",
+          "updatedAt": "2022-10-24T18:57:08.895Z",
+          "name": "",
+          "file": "themes/1666637694510-909537019-Theme-04.jpg",
+          "frames": [
+            {
+              "frameType": "optionA",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637755811-461115771-Option_A.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionB",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637762819-348022394-Option_B.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionC",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637769018-195504901-Option_C.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionD",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637773781-298535850-Option_D.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "timeBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637781678-145398466-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "scoreBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637787411-409913489-Score_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "background",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637793366-399386878-Background.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "headerBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637799842-315519636-Header_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionImgBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637804429-957305082-Question_Image_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionHeader",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637808901-303185945-Question_Header.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "titleBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637812666-20152344-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": null,
+          "search_keywords": [],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "630cb48f8e7ef8901ff2420e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        } //choice champ
+      },
+      {
+        "levelId": 2, //all
+        "file": "empty", //all
+        "introduction": "Tech Hunt", //runner rave 
+        "question": "Which of the following is a non metal that remains liquid at room temperature?", //all
+        "questionTime": 30, //goal troll
+        "answer": "Bromine", //all
+        "completionScore": 30, //runner rave
+        "wrongAnswer": "x = 30", //mythbusters
+        "source": "", //mythbusters
+        "sourceURL": "", //mythbusters
+        "wrongAnswerOne": "Phosphorous", //choice champ
+        "wrongAnswerTwo": "Chlorine", //choice champ
+        "wrongAnswerThree": "Helium", //choice champ
+        "closingAnswer": "Bromine is a non metal that remains liquid at room temperature.", //all
+        "avatar": {
+          "id": "628c9032327f68d99793f6ed",
+          "createdAt": null,
+          "updatedAt": "2022-10-03T15:49:23.461Z",
+          "name": "",
+          "file": "assets/1653379067776-321944361-Right-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameType": "Lose",
+              "frameUrls": [
+                {
+                  "file": "assets/1653379073306-556225604-Wrong-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": "Objects",
+          "search_keywords": [
+            "earth"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61f9f5939edc8854b86ed2b2",
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "62fe23fb7476cb426405472e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        },
+        "interface": {
+          "id": "6356e004c3242de4f04d637a",
+          "createdAt": "2022-10-24T18:57:08.895Z",
+          "updatedAt": "2022-10-24T18:57:08.895Z",
+          "name": "",
+          "file": "themes/1666637694510-909537019-Theme-04.jpg",
+          "frames": [
+            {
+              "frameType": "optionA",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637755811-461115771-Option_A.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionB",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637762819-348022394-Option_B.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionC",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637769018-195504901-Option_C.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionD",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637773781-298535850-Option_D.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "timeBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637781678-145398466-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "scoreBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637787411-409913489-Score_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "background",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637793366-399386878-Background.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "headerBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637799842-315519636-Header_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionImgBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637804429-957305082-Question_Image_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionHeader",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637808901-303185945-Question_Header.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "titleBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637812666-20152344-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": null,
+          "search_keywords": [],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "630cb48f8e7ef8901ff2420e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        },
+        "wordData": [
+          {
+            "word": "BRAIN",
+            "hint": "Body's control center."
+          },
+          {
+            "word": "LUNGS",
+            "hint": "Removes excess carbon dioxide in exchange for oxygen."
+          },
+          {
+            "word": "KIDNEY",
+            "hint": "Pair of bean shaped organ"
+          },
+          {
+            "word": "LIVER",
+            "hint": "The most important organ of the metabolic system."
+          },
+          {
+            "word": "SKIN",
+            "hint": "Body's largest organ."
+          },
+          {
+            "word": "PANCREAS",
+            "hint": "It functions as both an exocrine gland and an endocrine gland."
+          },
+          {
+            "word": "HEART",
+            "hint": "Delivers blood to the body."
+          },
+          {
+            "word": "STOMACH",
+            "hint": "It's a J shaped organ."
+          }
+        ], //cross boss
+        "platform": {
+          "id": "62ed51680cb5ad88d04e4235",
+          "createdAt": "2022-08-05T17:20:40.643Z",
+          "updatedAt": "2022-08-05T17:20:40.643Z",
+          "name": "",
+          "file": "assets/1659720002086-234898850-Snow-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameType": "Platform1",
+              "frameUrls": [
+                {
+                  "file": "assets/1659720022438-830135493-Platform-01-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "Platform2",
+              "frameUrls": [
+                {
+                  "file": "assets/1659720024469-679480339-Platform-02-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "Platform3",
+              "frameUrls": [
+                {
+                  "file": "assets/1659720027642-819482664-Platform-03-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "Platform4",
+              "frameUrls": [
+                {
+                  "file": "assets/1659720034336-622619239-Platform-04-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": "All",
+          "search_keywords": [],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "62d654ff301b4243bb87ffb1"
+          ],
+          "asset_type_id": "63184cbce4baa4c584cdc769",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        }, //runner rave
+        "background": {
+          "id": "627cace22fc4ea7a8a8c5381",
+          "updatedAt": "2023-09-12T06:28:02.872Z",
+          "name": "",
+          "file": "assets/1660222361615-475179604-31-Space-619fb98819f7bb212cee4d48.png",
+          "sub_type": "All",
+          "search_keywords": [
+            "planets",
+            "space"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61d90b8e52c0cc7af88a115b",
+            "61e9b4cbb925a95d3e00d101",
+            "61f86488917e7ca9bfb8c220",
+            "61f9f5939edc8854b86ed2b2",
+            "62204a94e477d3777046dfe7",
+            "62a1be9aaf2e985da9726c9a",
+            "6385bc6ed184ae947ae0788a",
+            "63ec8b2cb10edb8c3fb33041",
+            "64f6e67f372019fa7b7d0dc7"
+          ],
+          "asset_type_id": "62fe24177476cb4264054733",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "coins_to_buy": 0,
+          "bought_by_users": [],
+          "deleted": false
+        } //cross boss
+        "collectibles": [
+          {
+            "id": "62dd9a2554dae3f50b3d4ecd",
+            "createdAt": "2022-07-24T19:14:45.301Z",
+            "updatedAt": "2022-10-07T11:17:11.510Z",
+            "name": "",
+            "file": "assets/1658690068301-14379348-16-619fb98819f7bb212cee4d48.png",
+            "sub_type": "Technology",
+            "search_keywords": [
+              "game"
+            ],
+            "is_public": true,
+            "owner_user_id": "619fb98819f7bb212cee4d48",
+            "is_premium": false,
+            "template_id": [
+              "61f86488917e7ca9bfb8c220",
+              "62204342e477d3777046dfe6",
+              "61e9b4cbb925a95d3e00d101",
+              "628cb173fdd0331e553ecd93",
+              "62ce904c2bdbb66a6bc7530d",
+              "62d654ff301b4243bb87ffb1",
+              "62ebaf53344b3045bccfa50a",
+              "6407301cd03ba9428af435b5"
+            ],
+            "asset_type_id": "62ed08c5164bebaa807c08f8",
+            "liked_by_user": false,
+            "liked_count": 0,
+            "bought_by_user": false,
+            "liked_by_users": [],
+            "count": 1,
+            "score": 10,
+            "coins_to_buy": 0,
+            "bought_by_users": [],
+            "deleted": false
+          },
+          {
+            "id": "6286b4cd2fc4ea7a8a8cb789",
+            "updatedAt": "2022-10-06T11:43:18.867Z",
+            "name": "",
+            "file": "assets/1652995272642-718550280-6-619fb98819f7bb212cee4d48.png",
+            "sub_type": "Technology",
+            "search_keywords": [
+              "technology",
+              "camera"
+            ],
+            "is_public": true,
+            "owner_user_id": "619fb98819f7bb212cee4d48",
+            "is_premium": false,
+            "template_id": [
+              "61e9b4cbb925a95d3e00d101",
+              "61f86488917e7ca9bfb8c220",
+              "62204342e477d3777046dfe6",
+              "628cb173fdd0331e553ecd93",
+              "62a1be9aaf2e985da9726c9a",
+              "62ce904c2bdbb66a6bc7530d",
+              "62d654ff301b4243bb87ffb1",
+              "62ebaf53344b3045bccfa50a",
+              "6407301cd03ba9428af435b5"
+            ],
+            "asset_type_id": "62ed08c5164bebaa807c08f8",
+            "liked_by_user": false,
+            "liked_count": 0,
+            "bought_by_user": false,
+            "liked_by_users": [],
+            "count": 2,
+            "score": 5,
+            "coins_to_buy": 0,
+            "bought_by_users": [],
+            "deleted": false
+          },
+          {
+            "id": "62dd9a5154dae3f50b3d4eea",
+            "createdAt": "2022-07-24T19:15:29.638Z",
+            "updatedAt": "2022-10-07T11:17:37.778Z",
+            "name": "",
+            "file": "assets/1658690112196-785377530-17-619fb98819f7bb212cee4d48.png",
+            "sub_type": "Technology",
+            "search_keywords": [
+              "box"
+            ],
+            "is_public": true,
+            "owner_user_id": "619fb98819f7bb212cee4d48",
+            "is_premium": false,
+            "template_id": [
+              "61f86488917e7ca9bfb8c220",
+              "62204342e477d3777046dfe6",
+              "61e9b4cbb925a95d3e00d101",
+              "628cb173fdd0331e553ecd93",
+              "62ce904c2bdbb66a6bc7530d",
+              "62d654ff301b4243bb87ffb1",
+              "62ebaf53344b3045bccfa50a",
+              "6407301cd03ba9428af435b5"
+            ],
+            "asset_type_id": "62ed08c5164bebaa807c08f8",
+            "liked_by_user": false,
+            "liked_count": 0,
+            "bought_by_user": false,
+            "liked_by_users": [],
+            "count": 3,
+            "score": 10,
+            "coins_to_buy": 0,
+            "bought_by_users": [],
+            "deleted": false
+          }
+        ], //runner rave + maze craze
+        "nonCollectibles": [
+          {
+            "id": "62ab0e0cfdea5acb8049a6e0",
+            "createdAt": "2022-06-16T11:03:40.777Z",
+            "updatedAt": "2022-10-06T13:30:17.906Z",
+            "name": "",
+            "file": "assets/1655377418403-241486327-8_(1)-619fb98819f7bb212cee4d48.png",
+            "sub_type": "Objects",
+            "search_keywords": [
+              "Road sign"
+            ],
+            "is_public": true,
+            "owner_user_id": "619fb98819f7bb212cee4d48",
+            "is_premium": false,
+            "template_id": [
+              "628cb173fdd0331e553ecd93",
+              "62ce904c2bdbb66a6bc7530d",
+              "61e9b4cbb925a95d3e00d101",
+              "61f86488917e7ca9bfb8c220",
+              "62204342e477d3777046dfe6",
+              "62a1be9aaf2e985da9726c9a",
+              "62d654ff301b4243bb87ffb1",
+              "62ebaf53344b3045bccfa50a",
+              "6407301cd03ba9428af435b5"
+            ],
+            "asset_type_id": "62ed08c5164bebaa807c08f8",
+            "liked_by_user": false,
+            "liked_count": 0,
+            "bought_by_user": false,
+            "liked_by_users": [],
+            "count": 2,
+            "score": 10,
+            "coins_to_buy": 0,
+            "bought_by_users": [],
+            "deleted": false
+          },
+          {
+            "id": "6233c5377e097ba791a2296b",
+            "updatedAt": "2022-10-06T07:42:48.987Z",
+            "name": "c1",
+            "file": "assets/5645006-367107-19-619fb98819f7bb212cee4d48.png",
+            "sub_type": "Objects",
+            "search_keywords": [
+              "skull",
+              "dead"
+            ],
+            "is_public": true,
+            "owner_user_id": "619fb98819f7bb212cee4d48",
+            "is_premium": false,
+            "template_id": [
+              "62204342e477d3777046dfe6",
+              "61e9b4cbb925a95d3e00d101",
+              "61f86488917e7ca9bfb8c220",
+              "628cb173fdd0331e553ecd93",
+              "62a1be9aaf2e985da9726c9a",
+              "62ce904c2bdbb66a6bc7530d",
+              "62d654ff301b4243bb87ffb1",
+              "62ebaf53344b3045bccfa50a",
+              "6407301cd03ba9428af435b5"
+            ],
+            "asset_type_id": "62ed08c5164bebaa807c08f8",
+            "liked_by_user": false,
+            "liked_count": 0,
+            "bought_by_user": false,
+            "liked_by_users": [],
+            "count": 3,
+            "score": 10,
+            "coins_to_buy": 0,
+            "bought_by_users": []
+          },
+          {
+            "id": "6233c5377e097ba791a22908",
+            "updatedAt": "2022-10-06T07:15:31.760Z",
+            "name": "c1",
+            "file": "assets/2252169-277068-10-619fb98819f7bb212cee4d48.png",
+            "sub_type": "Objects",
+            "search_keywords": [
+              "Fire",
+              "Flame"
+            ],
+            "is_public": true,
+            "owner_user_id": "619fb98819f7bb212cee4d48",
+            "is_premium": false,
+            "template_id": [
+              "62204342e477d3777046dfe6",
+              "61e9b4cbb925a95d3e00d101",
+              "61f86488917e7ca9bfb8c220",
+              "628cb173fdd0331e553ecd93",
+              "628cb173fdd0331e553ecd93",
+              "62a1be9aaf2e985da9726c9a",
+              "62ce904c2bdbb66a6bc7530d",
+              "62d654ff301b4243bb87ffb1",
+              "62ebaf53344b3045bccfa50a",
+              "6407301cd03ba9428af435b5"
+            ],
+            "asset_type_id": "62ed08c5164bebaa807c08f8",
+            "liked_by_user": false,
+            "liked_count": 0,
+            "bought_by_user": false,
+            "liked_by_users": [],
+            "count": 4,
+            "score": 10,
+            "coins_to_buy": 0,
+            "bought_by_users": []
+          }
+        ],//runner rave + maze craze
+        "customCollectibles": [
+          {
+            "text": "VR",
+            "score": 10,
+            "isCustom": true,
+            "count": 4
+          },
+          {
+            "text": "Hardware",
+            "score": 5,
+            "isCustom": true,
+            "count": 5
+          },
+          {
+            "text": "Computer",
+            "score": 5,
+            "isCustom": true,
+            "count": 6
+          }
+        ], //runner rave + maze craze
+        "customNonCollectibles": [], //corner cuts
+        "customCollectiblesCount": 3, //runner rave + maze craze
+        "customNonCollectablesCount": 0, //corner cuts
+        "mazeColor": "#50e3c2" //maze craze 
+        "link": "Paste your link here", //clue crawl
+        "maps": {
+          "id": "63e0cc9f197eee62e66da05e",
+          "createdAt": "2023-02-06T09:47:11.151Z",
+          "updatedAt": "2023-02-27T10:59:35.486Z",
+          "name": "1",
+          "file": "assets/map1-22abb96-63e37e73e51bb189be18f485.jpg",
+          "frames": [
+            {
+              "frameType": "1",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-01-Stone-ec44b5d-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "2",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-02-Stone-Slab-57848da-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "3",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-03-Stone-Slab-29be178-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "4",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-04-Van-f92bdbe-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "5",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-05-Stove-95f6cbc-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "6",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-06-Woodlogs-5420d2b-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "7",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-07-Woodbase-17c5816-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "8",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-08-Arrow-Board-5694b2d-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "9",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-09-Rock-c726b89-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "10",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-10-Cave-1d601d3-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "11",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-11-Stone-Slab-8483e15-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "12",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-12-Woodlogs-8bf6aa1-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "13",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-13-Stone-Fountain-52c9188-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "14",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-14-Stone-fb4e102-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "15",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-15-Campfire-6e95ae4-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "16",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-16-Board-9e52693-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "17",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-17-Camp-4752889-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "18",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-18-Volcano-c6d8075-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "19",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-19-Stone-Slab-808468a-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "20",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-20-Woodlogs-30eaa8b-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "21",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-21-Tree-79b69f1-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "22",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-22-Sign-Board-36bbcee-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "23",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-23-Rock-c9c7e35-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "24",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-24-House-0ceca90-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "25",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-25-Tree-b9ae8be-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "26",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-26-House-32ada4c-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "27",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-27-Woodlogs-ec2065c-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "28",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-28-Stone-282e0e3-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "29",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-29-Cave-f94531e-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            },
+            {
+              "frameType": "30",
+              "frameUrls": [
+                {
+                  "file": "assets/Obj-30-Stone-Slab-Final-7187e9b-63e37e73e51bb189be18f485.png",
+                  "sequence": 0
+                }
+              ]
+            }
+          ],
+          "sub_type": "All",
+          "tags": null,
+          "search_keywords": [
+            "maps",
+            "scavenger",
+            "hunt"
+          ],
+          "is_public": true,
+          "owner_user_id": "620e1519f9c1f4e269aa81bb",
+          "is_premium": false,
+          "template_id": [
+            "63c685b45165e98e0e69fc77"
+          ],
+          "asset_type_id": "63c6772aebe69935297e51f4",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "coins_to_buy": null,
+          "bought_by_users": [],
+          "deleted": false,
+          "deletedAt": null
+        }, //clue crawl
+        "element": {
+          "frameType": "26",
+          "frameUrls": [
+            {
+              "file": "assets/Obj-26-House-32ada4c-63e37e73e51bb189be18f485.png",
+              "sequence": 0
+            }
+          ]
+        }, //clue crawl
+        "clue": "A house with blue roof!", //clue crawl
+        "imageQuestion": "false", //clue crawl
+        "lettersInWord": 6,//jumble joy
+        "lettersInSplit": 2, //jumble joy
+        "gridSize": 25, //jigsaw jam
+        "puzzle": {
+          "score": 8,
+          "pair": 1,
+          "asset_type_id": "6308a8f70e390be5305bef1c",
+          "template_id": [
+            "62b041417ef769105a30012a",
+            "62ce904c2bdbb66a6bc7530d",
+            "63d8ebab76aa87ba29e87549"
+          ],
+          "name": "",
+          "file": "assets/1657056166639-902617364-8-619fb98819f7bb212cee4d48.png",
+          "sub_type": "Objects",
+          "search_keywords": [
+            "Scenery"
+          ],
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_public": true,
+          "is_premium": false,
+          "coins_to_buy": 0,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "deleted": false,
+          "createdAt": "2022-07-05T21:22:49.617Z",
+          "updatedAt": "2022-10-06T13:48:50.310Z"
+        }, //jigsaw jam + puzzle peel
+        "obstacles": [
+          {
+            "id": "6298c5016f2f70e4be1374a0",
+            "createdAt": "2022-06-02T14:11:13.949Z",
+            "updatedAt": "2022-06-02T14:11:13.949Z",
+            "name": "",
+            "file": "assets/1654179041588-330511068-Obstacle--07-619fb98819f7bb212cee4d48.png",
+            "sub_type": "All",
+            "search_keywords": [
+              "Tube",
+              "Balls",
+              "Obstacle"
+            ],
+            "is_public": true,
+            "owner_user_id": "619fb98819f7bb212cee4d48",
+            "is_premium": false,
+            "template_id": [
+              "628cb173fdd0331e553ecd93"
+            ],
+            "asset_type_id": "630c80679597aada43f4d50e",
+            "liked_by_user": false,
+            "liked_count": 0,
+            "bought_by_user": false,
+            "liked_by_users": [],
+            "count": 1,
+            "coins_to_buy": 0,
+            "bought_by_users": [],
+            "deleted": false
+          },
+          {
+            "id": "6298c5266f2f70e4be1374b4",
+            "createdAt": "2022-06-02T14:11:50.018Z",
+            "updatedAt": "2022-06-02T14:11:50.018Z",
+            "name": "",
+            "file": "assets/1654179093105-94883054-Obstacle--08-619fb98819f7bb212cee4d48.png",
+            "sub_type": "All",
+            "search_keywords": [
+              "Person in a tube",
+              "tube"
+            ],
+            "is_public": true,
+            "owner_user_id": "619fb98819f7bb212cee4d48",
+            "is_premium": false,
+            "template_id": [
+              "628cb173fdd0331e553ecd93"
+            ],
+            "asset_type_id": "630c80679597aada43f4d50e",
+            "liked_by_user": false,
+            "liked_count": 0,
+            "bought_by_user": false,
+            "liked_by_users": [],
+            "count": 2,
+            "coins_to_buy": 0,
+            "bought_by_users": [],
+            "deleted": false
+          }
+        ], //rev n ride
+        "laser": {
+          "id": "6233b65f7e097ba791a22760",
+          "name": "",
+          "file": "assets/7113171-648871-9-619fb98819f7bb212cee4d48.png",
+          "sub_type": "All",
+          "search_keywords": [],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "62204342e477d3777046dfe6"
+          ],
+          "asset_type_id": "630c80679597aada43f4d50e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "coins_to_buy": 0,
+          "bought_by_users": []
+        }, //seek and smash
+        "monster": {
+          "id": "63205d9e56aac31c6db2c4f2",
+          "createdAt": "2022-09-13T10:38:22.304Z",
+          "updatedAt": "2022-10-04T16:07:45.574Z",
+          "name": "",
+          "file": "assets/1663065457261-724804899-1-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameType": "monsterStand",
+              "frameUrls": [
+                {
+                  "file": "assets/1663065472264-365108472-1-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "monsterJump",
+              "frameUrls": [
+                {
+                  "file": "assets/1663065483594-886218679-2-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                },
+                {
+                  "file": "assets/1663065483594-886218679-2-619fb98819f7bb212cee4d48.png",
+                  "sequence": 2
+                },
+                {
+                  "file": "assets/1663065483594-886218679-2-619fb98819f7bb212cee4d48.png",
+                  "sequence": 3
+                },
+                {
+                  "file": "assets/1663065483594-886218679-2-619fb98819f7bb212cee4d48.png",
+                  "sequence": 4
+                }
+              ]
+            }
+          ],
+          "sub_type": "Monsters",
+          "search_keywords": [
+            "Monster"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61d90b8e52c0cc7af88a115b"
+          ],
+          "asset_type_id": "635123ec3669237ed7193c13",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        } //guess the word
+        "hero": {
+          "id": "6256939df99c4e38d28607a9",
+          "createdAt": null,
+          "updatedAt": "2023-09-12T06:27:35.274Z",
+          "name": "",
+          "file": "assets/1649841002229-953860521-Happy-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameType": "heroHappy",
+              "frameUrls": [
+                {
+                  "file": "assets/1649841011952-420862728-Happy-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "heroWin",
+              "frameUrls": [
+                {
+                  "file": "assets/1649841019807-91464625-Win-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "heroSad",
+              "frameUrls": [
+                {
+                  "file": "assets/1649841042353-806124170-Sad-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "heroLose",
+              "frameUrls": [
+                {
+                  "file": "assets/1649841049996-202906942-Lose-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": "Humans",
+          "search_keywords": [
+            "Boy",
+            "Hero"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61d90b8e52c0cc7af88a115b",
+            "62204a94e477d3777046dfe7",
+            "6385bc6ed184ae947ae0788a",
+            "63ec8b2cb10edb8c3fb33041",
+            "64f6e67f372019fa7b7d0dc7"
+          ],
+          "asset_type_id": "62fe23fb7476cb426405472e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": null
+        }, //guess the word
+        "word": "Acute Angle", //guess the word
+        "hint": "Less than 90°", //guess the word
+        "category": "Math Angle", //guess the word
+        "tiles": {
+          "id": "62aa7fabfdea5acb8049903f",
+          "createdAt": "2022-06-16T00:56:11.193Z",
+          "updatedAt": "2022-06-16T00:56:11.193Z",
+          "name": "",
+          "file": "assets/1655340943843-526934378-Tiile_Closed-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameUrls": [
+                {
+                  "file": "assets/1655340942941-381336715-Tiled_Open-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": "All",
+          "search_keywords": [
+            "Blue"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "62a1be9aaf2e985da9726c9a"
+          ],
+          "asset_type_id": "6318635ce4baa4c584cdc77e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        }, //match mania
+
+      },
+      {
+        "levelId": 3,
+        "file": "empty",
+        "question": "Which of the following is used in pencils?",
+        "answer": "Graphite",
+        "wrongAnswerOne": "Silicon",
+        "wrongAnswerTwo": "Charcoal",
+        "wrongAnswerThree": "Phosphorous",
+        "closingAnswer": "Graphite is used in pencils.",
+        "avatar": {
+          "id": "628c9032327f68d99793f6ed",
+          "createdAt": null,
+          "updatedAt": "2022-10-03T15:49:23.461Z",
+          "name": "",
+          "file": "assets/1653379067776-321944361-Right-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameType": "Lose",
+              "frameUrls": [
+                {
+                  "file": "assets/1653379073306-556225604-Wrong-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": "Objects",
+          "search_keywords": [
+            "earth"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61f9f5939edc8854b86ed2b2",
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "62fe23fb7476cb426405472e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        },
+        "interface": {
+          "id": "6356e004c3242de4f04d637a",
+          "createdAt": "2022-10-24T18:57:08.895Z",
+          "updatedAt": "2022-10-24T18:57:08.895Z",
+          "name": "",
+          "file": "themes/1666637694510-909537019-Theme-04.jpg",
+          "frames": [
+            {
+              "frameType": "optionA",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637755811-461115771-Option_A.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionB",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637762819-348022394-Option_B.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionC",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637769018-195504901-Option_C.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionD",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637773781-298535850-Option_D.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "timeBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637781678-145398466-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "scoreBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637787411-409913489-Score_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "background",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637793366-399386878-Background.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "headerBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637799842-315519636-Header_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionImgBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637804429-957305082-Question_Image_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionHeader",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637808901-303185945-Question_Header.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "titleBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637812666-20152344-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": null,
+          "search_keywords": [],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "630cb48f8e7ef8901ff2420e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        }
+      },
+      {
+        "levelId": 4,
+        "file": "empty",
+        "question": "Which of the gas is not known as green house gas?",
+        "answer": "Hydrogen",
+        "wrongAnswerOne": "Carbon dioxide",
+        "wrongAnswerTwo": "Nitrous oxide",
+        "wrongAnswerThree": "Methane",
+        "closingAnswer": "Hydrogen is not known as green house gas.",
+        "avatar": {
+          "id": "628c9032327f68d99793f6ed",
+          "createdAt": null,
+          "updatedAt": "2022-10-03T15:49:23.461Z",
+          "name": "",
+          "file": "assets/1653379067776-321944361-Right-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameType": "Lose",
+              "frameUrls": [
+                {
+                  "file": "assets/1653379073306-556225604-Wrong-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": "Objects",
+          "search_keywords": [
+            "earth"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61f9f5939edc8854b86ed2b2",
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "62fe23fb7476cb426405472e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        },
+        "interface": {
+          "id": "6356e004c3242de4f04d637a",
+          "createdAt": "2022-10-24T18:57:08.895Z",
+          "updatedAt": "2022-10-24T18:57:08.895Z",
+          "name": "",
+          "file": "themes/1666637694510-909537019-Theme-04.jpg",
+          "frames": [
+            {
+              "frameType": "optionA",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637755811-461115771-Option_A.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionB",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637762819-348022394-Option_B.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionC",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637769018-195504901-Option_C.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionD",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637773781-298535850-Option_D.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "timeBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637781678-145398466-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "scoreBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637787411-409913489-Score_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "background",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637793366-399386878-Background.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "headerBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637799842-315519636-Header_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionImgBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637804429-957305082-Question_Image_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionHeader",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637808901-303185945-Question_Header.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "titleBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637812666-20152344-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": null,
+          "search_keywords": [],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "630cb48f8e7ef8901ff2420e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        }
+      },
+      {
+        "levelId": 5,
+        "file": "empty",
+        "question": "The gas usually filled in the electric bulb is",
+        "answer": "Nitrogen",
+        "wrongAnswerOne": "Carbon dioxide",
+        "wrongAnswerTwo": "Hydrogen",
+        "wrongAnswerThree": "Oxygen",
+        "closingAnswer": "The gas usually filled in the electric bulb is Nitrogen.",
+        "avatar": {
+          "id": "628c9032327f68d99793f6ed",
+          "createdAt": null,
+          "updatedAt": "2022-10-03T15:49:23.461Z",
+          "name": "",
+          "file": "assets/1653379067776-321944361-Right-619fb98819f7bb212cee4d48.png",
+          "frames": [
+            {
+              "frameType": "Lose",
+              "frameUrls": [
+                {
+                  "file": "assets/1653379073306-556225604-Wrong-619fb98819f7bb212cee4d48.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": "Objects",
+          "search_keywords": [
+            "earth"
+          ],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "61f9f5939edc8854b86ed2b2",
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "62fe23fb7476cb426405472e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        },
+        "interface": {
+          "id": "6356e004c3242de4f04d637a",
+          "createdAt": "2022-10-24T18:57:08.895Z",
+          "updatedAt": "2022-10-24T18:57:08.895Z",
+          "name": "",
+          "file": "themes/1666637694510-909537019-Theme-04.jpg",
+          "frames": [
+            {
+              "frameType": "optionA",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637755811-461115771-Option_A.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionB",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637762819-348022394-Option_B.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionC",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637769018-195504901-Option_C.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "optionD",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637773781-298535850-Option_D.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "timeBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637781678-145398466-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "scoreBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637787411-409913489-Score_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "background",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637793366-399386878-Background.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "headerBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637799842-315519636-Header_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionImgBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637804429-957305082-Question_Image_BG.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "questionHeader",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637808901-303185945-Question_Header.png",
+                  "sequence": 1
+                }
+              ]
+            },
+            {
+              "frameType": "titleBG",
+              "frameUrls": [
+                {
+                  "file": "themes/1666637812666-20152344-Time_BG.png",
+                  "sequence": 1
+                }
+              ]
+            }
+          ],
+          "sub_type": null,
+          "search_keywords": [],
+          "is_public": true,
+          "owner_user_id": "619fb98819f7bb212cee4d48",
+          "is_premium": false,
+          "template_id": [
+            "630873dc9e258f325a8255ff"
+          ],
+          "asset_type_id": "630cb48f8e7ef8901ff2420e",
+          "liked_by_user": false,
+          "liked_count": 0,
+          "bought_by_user": false,
+          "liked_by_users": [],
+          "bought_by_users": [],
+          "coins_to_buy": 0,
+          "deleted": false
+        }
+      }
+    ],
+    "featured": true,
+    "sequence": 1,
+    "collect_data": false,
+    "rtl": false,
+    "custom_fields": {
+      "play_time": 250
+    },
+    "search_keywords": [
+      "science"
+    ]
+  }
+}
