@@ -1,183 +1,114 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+using System;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+
+[Serializable]
+public class PlayerData
+{
+    [SerializeField]public int score = 50000;
+    public bool purchased1 = false;
+    public bool purchased2 = false;
+    public bool purchased3 = false;
+    public bool purchased4 = false;
+    public bool purchased5 = false;
+    public bool purchased6 = false;
+}
 
 public class ScoreManager : MonoBehaviour
 {
-    [SerializeField]  public  int score = 5000;
     public TextMeshProUGUI scoreText;
-    private string scoreKey = "PlayerScore"; // Key for PlayerPrefs
+    private PlayerData playerData;
+    private string dataFileName = "playerData.dat";
 
-    private bool _purchased1 = false;
-    private bool _purchased2 = false;
-    private bool _purchased3 = false;
-    private bool _purchased4 = false;
-    private bool _purchased5 = false;
-    private bool _purchased6 = false;
-    
-    
-    
     void Start()
     {
-        // Load the score when the game starts
-        if (PlayerPrefs.HasKey(scoreKey))
-        {
-            score = PlayerPrefs.GetInt(scoreKey);
-            UpdateScore(0); // Update the displayed score
-        }
+        LoadData();
+        UpdateScore(0);
     }
 
     public void UpdateScore(int addScore)
     {
-        score += addScore;
-        Debug.Log("Score: " + score);
+        playerData.score += addScore;
+        Debug.Log("Score: " + playerData.score);
 
-        // Save the score in PlayerPrefs
-        PlayerPrefs.SetInt(scoreKey, score);
-        PlayerPrefs.Save(); // Save the PlayerPrefs immediately
+        SaveData();
 
         if (scoreText != null)
         {
-            scoreText.text = "" + score;
+            scoreText.text = playerData.score.ToString();
+        }
+    }
+
+    public void BuyItem(int price, ref bool purchasedFlag)
+    {
+        if (!purchasedFlag && playerData.score >= price)
+        {
+            Debug.Log("Item purchased successfully.");
+            playerData.score -= price;
+            UpdateScore(0); // Update the displayed score
+            purchasedFlag = true;
+        }
+        else if (!purchasedFlag && playerData.score < price)
+        {
+            Debug.Log("Insufficient score to purchase. Current Score: " + playerData.score + ", Required: " + price);
+        }
+        else
+        {
+            Debug.Log("Item already purchased.");
         }
     }
 
 
+    public void Buy1stItem()
+    {
+        BuyItem(500, ref playerData.purchased1);
+    }
+
+    public void Buy2ndItem()
+    {
+        BuyItem(1500, ref playerData.purchased2);
+    }
     
-        public void Buy1stItem()  //price = 1000
+    public void Buy3rdItem()
+    {
+        BuyItem(2000, ref playerData.purchased1);
+    }
+
+    public void Buy4thItem()
+    {
+        BuyItem(2500, ref playerData.purchased1);
+    }
+
+    public void Buy5thItem()
+    {
+        BuyItem(3000, ref playerData.purchased1);
+    }
+
+
+    public void Buy6thItem()
+    {
+        BuyItem(3500, ref playerData.purchased1);
+    }
+   
+
+    private void SaveData()
+    {
+        string filePath = Application.persistentDataPath + "/" + dataFileName;
+        string jsonData = JsonUtility.ToJson(playerData);
+        System.IO.File.WriteAllText(filePath, jsonData);
+    }
+
+    private void LoadData()
+    {
+        string filePath = Application.persistentDataPath + "/" + dataFileName;
+        if (System.IO.File.Exists(filePath))
         {
-            while (_purchased1 == false)
-            {
-                if (score >= 500) // Ensure sufficient score
-                {
-                    score -= 500;
-                    UpdateScore(-500); // Update the displayed score
-
-                    // Perform the purchase action
-                    Debug.Log("Item purchased successfully.");
-                    
-                }
-                else
-                {
-                    Debug.Log("Insufficient score to purchase.");
-                }
-                _purchased1 = true;
-            }
-            
+            string jsonData = System.IO.File.ReadAllText(filePath);
+            playerData = JsonUtility.FromJson<PlayerData>(jsonData);
         }
-        
-        public void Buy2ndItem()  //price = 1500
+        else
         {
-            while (_purchased2 == false)
-            {
-                if (score >= 750) // Ensure sufficient score
-                {
-                    score -= 750;
-                    UpdateScore(-750); // Update the displayed score
-
-                    // Perform the purchase action
-                    Debug.Log("Item purchased successfully.");
-                    
-                }
-                else
-                {
-                    Debug.Log("Insufficient score to purchase.");
-                }
-                _purchased2 = true;
-            }
-            
+            playerData = new PlayerData();
         }
-        
-        public void Buy3rdItem()  //price = 2000
-        {
-            while (_purchased3 == false)
-            {
-                if (score >= 1000) // Ensure sufficient score
-                {
-                    score -= 1000;
-                    UpdateScore(-1000); // Update the displayed score
-
-                    // Perform the purchase action
-                    Debug.Log("Item purchased successfully.");
-                    
-                }
-                else
-                {
-                    Debug.Log("Insufficient score to purchase.");
-                }
-                _purchased3 = true;
-            }
-            
-        }
-        
-        public void Buy4thItem()  //price = 2500
-        {
-            while (_purchased4 == false)
-            {
-                if (score >= 1250) // Ensure sufficient score
-                {
-                    score -= 1250;
-                    UpdateScore(-1250); // Update the displayed score
-
-                    // Perform the purchase action
-                    Debug.Log("Item purchased successfully.");
-                    
-                }
-                else
-                {
-                    Debug.Log("Insufficient score to purchase.");
-                }
-                _purchased4 = true;
-            }
-            
-        }
-
-        public void Buy5thItem() //price = 3000
-        {
-            while (_purchased5 == false)
-            {
-                if (score >= 1500) // Ensure sufficient score
-                {
-                    score -= 1500;
-                    UpdateScore(-1500); // Update the displayed score
-
-                    // Perform the purchase action
-                    Debug.Log("Item purchased successfully.");
-
-                }
-                else
-                {
-                    Debug.Log("Insufficient score to purchase.");
-                }
-
-                _purchased5 = true;
-            }
-        }
-
-        public void Buy6thItem()  //price = 3500
-            {
-                while (_purchased6 == false)
-                {
-                    if (score >= 1750) // Ensure sufficient score
-                    {
-                        score -= 1750;
-                        UpdateScore(-1750); // Update the displayed score
-
-                        // Perform the purchase action
-                        Debug.Log("Item purchased successfully.");
-                    
-                    }
-                    else
-                    {
-                        Debug.Log("Insufficient score to purchase.");
-                    }
-                    _purchased6 = true;
-                }
-            
-            }
-            
-        
-    
+    }
 }

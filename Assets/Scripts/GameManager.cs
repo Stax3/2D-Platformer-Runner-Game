@@ -52,9 +52,6 @@ public class GameManager : MonoBehaviour
         _distanceTracker.gameRunning = true;
     }
     
-    
-    
-    
     public void Playbtn()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -67,7 +64,6 @@ public class GameManager : MonoBehaviour
                 
             }
     
-    
     public void QuitApplication()
         {
             #if UNITY_EDITOR
@@ -76,7 +72,5 @@ public class GameManager : MonoBehaviour
                 Application.Quit(); // Quit the application in a build
             #endif
         }
-    
-     
     
 }
