@@ -4,7 +4,7 @@ using TMPro;
 
 [Serializable]
 public class PlayerData
-{Aletre
+{
     [SerializeField]public int score = 50000;
     public bool[] purchased = new bool[6] {false, false, false, false, false, false};
 
