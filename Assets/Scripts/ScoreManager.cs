@@ -4,14 +4,10 @@ using TMPro;
 
 [Serializable]
 public class PlayerData
-{
+{Aletre
     [SerializeField]public int score = 50000;
-    public bool purchased1 = false;
-    public bool purchased2 = false;
-    public bool purchased3 = false;
-    public bool purchased4 = false;
-    public bool purchased5 = false;
-    public bool purchased6 = false;
+    public bool[] purchased = new bool[6] {false, false, false, false, false, false};
+
 }
 
 public class ScoreManager : MonoBehaviour
@@ -51,6 +47,10 @@ public class ScoreManager : MonoBehaviour
         else if (!purchasedFlag && playerData.score < price)
         {
             Debug.Log("Insufficient score to purchase. Current Score: " + playerData.score + ", Required: " + price);
+            
+            
+            
+
         }
         else
         {
@@ -61,33 +61,40 @@ public class ScoreManager : MonoBehaviour
 
     public void Buy1stItem()
     {
-        BuyItem(500, ref playerData.purchased1);
+        BuyItem(500, ref playerData.purchased[0]);
+        Debug.Log("purchased flag " + playerData.purchased[0]);
     }
 
     public void Buy2ndItem()
     {
-        BuyItem(1500, ref playerData.purchased2);
+        BuyItem(1500, ref playerData.purchased[1]);
+        Debug.Log("purchased flag " + playerData.purchased[1]);
     }
     
     public void Buy3rdItem()
     {
-        BuyItem(2000, ref playerData.purchased1);
+        BuyItem(2000, ref playerData.purchased[2]);
+        Debug.Log("purchased flag " + playerData.purchased[2]);
     }
 
     public void Buy4thItem()
     {
-        BuyItem(2500, ref playerData.purchased1);
+        BuyItem(2500, ref playerData.purchased[3]);
+        Debug.Log("purchased flag " + playerData.purchased[3]);
+        
     }
 
     public void Buy5thItem()
     {
-        BuyItem(3000, ref playerData.purchased1);
+        BuyItem(3000, ref playerData.purchased[4]);
+        Debug.Log("purchased flag " + playerData.purchased[4]);
     }
 
 
     public void Buy6thItem()
     {
-        BuyItem(3500, ref playerData.purchased1);
+        BuyItem(3500, ref playerData.purchased[5]);
+        Debug.Log("purchased flag " + playerData.purchased[5]);
     }
    
 

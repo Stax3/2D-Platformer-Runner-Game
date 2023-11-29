@@ -8,11 +8,17 @@ using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 
+public class PurchasableItemManager 
+{
+    public List<GameObject> purchasableItemsList;
+    private PlayerData _playerData;
+   
+}
 public class ItemManager : MonoBehaviour
 {
     bool _isactive = false;
-    public List<GameObject> purchasableItemsList;
-    [FormerlySerializedAs("ObjToMoveInsSinWave")] [FormerlySerializedAs("nonpurchasableItemsList")] public List<GameObject> objToMoveInSinWave;
+    
+    public List<GameObject> objToMoveInSinWave;
     [SerializeField] public GameObject yenPouch;
     [SerializeField] public GameObject scroll;
     [SerializeField] public float moveSpeed = 0.01f;
@@ -76,6 +82,9 @@ public class ItemManager : MonoBehaviour
         ScrollBehaviour.OnScrollInteractionStart -= SpawnBonusCoinTrail;
 
     }
+
+
+    
 
 
     private void SpawnCoin(GameObject coin)
