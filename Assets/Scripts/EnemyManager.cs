@@ -46,6 +46,7 @@ public class EnemyManager : MonoBehaviour
         }
     }
     
+    //TODO: bad approach, there should be a single spawn function that handles the spawning of all your enemy types
     void SpawnTypeBAfterDelay()
     {
         if (!hasSpawned)

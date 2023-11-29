@@ -11,6 +11,8 @@ public class EnemyBehaviour : MonoBehaviour, IInteractable
     // Start is called before the first frame update
     void Awake()
     {
+        //TODO: Don't use findObjectOfType
+        //TODO: Enemy should not have a reference to gameManger just to call a function 
         _gameManager = FindObjectOfType<GameManager>();
         if (_gameManager == null)
             Debug.LogError("GameManager not found in the scene. Make sure it exists.");

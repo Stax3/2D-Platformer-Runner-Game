@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        //TODO: remove unused variables and references 
         _enemyManager = FindObjectOfType<EnemyManager>();
     }
 

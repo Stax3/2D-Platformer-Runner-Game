@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
+    //TODO: User proper naming for functions, follow PascalCase for function name and camelCase for variable names
     public void Replaybtn()
     {
         if (_distanceTracker == null)
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
         _distanceTracker.gameRunning = true;
     }
     
+    //TODO: Try to avoid using build index, it gets complicated for larger projects use names 
     public void Playbtn()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

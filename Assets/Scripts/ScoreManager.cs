@@ -9,7 +9,6 @@ public class PlayerData
     public bool[] purchased = new bool[6] {false, false, false, false, false, false};
 
 }
-
 public class ScoreManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
@@ -35,6 +34,7 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    //TODO: Score manager should just mange score, this function should not be a part of this class
     public void BuyItem(int price, ref bool purchasedFlag)
     {
         if (!purchasedFlag && playerData.score >= price)

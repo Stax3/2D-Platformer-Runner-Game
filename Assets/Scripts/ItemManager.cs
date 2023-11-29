@@ -57,6 +57,8 @@ public class ItemManager : MonoBehaviour
     {
         
         StartCoroutine(nameof(MoveItemsInSinWave));
+        
+        //TODO: replace this with a single function call that handles all the spawning of objects so that the time can be controlled
         InvokeRepeating(nameof(Yenpouch), 10f, 120f);
 
         InvokeRepeating(nameof(scrollItem), 160f, 250f);
